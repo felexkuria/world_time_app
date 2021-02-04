@@ -8,7 +8,7 @@ class WorldTime {
   String time;
   String flag;
   String url;
-
+  bool isDayTime;
   WorldTime(
       {this.location,
       this.time,
@@ -28,6 +28,7 @@ class WorldTime {
       DateTime now = DateTime.parse(datetime);
       now = now.add(Duration(hours: int.parse(offset)));
       // //set time Property
+      isDayTime = now.hour > 6 && now.hour < 20 ? true : false;
       time = DateFormat.jm().format(now);
       print(time);
     } catch (e) {
