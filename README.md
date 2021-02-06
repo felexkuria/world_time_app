@@ -7,15 +7,15 @@ A new Flutter application.
 #### you will learn about many concepts like
 <ul>
   <li>How to get data from api using Map() function</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>APi</li>
+  <li>Many more......</li>
 </ul>
 
 
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
-<img src="screenshot/Screenshot_1612467714.png" width="500" height="600"/>
+<img src="screenshot/Screenshot_1612467714.png" width="1080" height="1280"/>
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
